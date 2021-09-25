@@ -30,7 +30,7 @@ namespace StuMan_Console
                 try{
                     selectedFun = int.Parse(Console.ReadLine());
                 }
-                catch(FormatException e)
+                catch(FormatException)
                 {
                     Console.WriteLine("输 入的编号有误:");
                     Console.WriteLine("请重新输入......");
