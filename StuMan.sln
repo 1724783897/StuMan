@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StuMan_Console", "StuMan_Console\StuMan_Console.csproj", "{39254072-E684-4FC9-895B-F7F2CE3B9825}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39254072-E684-4FC9-895B-F7F2CE3B9825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39254072-E684-4FC9-895B-F7F2CE3B9825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39254072-E684-4FC9-895B-F7F2CE3B9825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39254072-E684-4FC9-895B-F7F2CE3B9825}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F239D184-3507-49B5-95AA-920457D912EC}
+	EndGlobalSection
+EndGlobal
