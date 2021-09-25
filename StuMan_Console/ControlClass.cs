@@ -33,7 +33,7 @@ namespace StuMan_Console
                 catch(FormatException)
                 {
                     Console.WriteLine("输 入的编号有误:");
-                    Console.WriteLine("请重新输入......");
+                    Console.Write("请重新输入......");
                     Console.ReadKey();
                 }
 
@@ -69,7 +69,7 @@ namespace StuMan_Console
             Console.Write("语文成绩：");
             float _lang = float.Parse(Console.ReadLine());
             StuBaseClass ts = new StuBaseClass(_sno, _name, _math, _lang);
-            bool Status = smc.AddStu(ts);
+            bool Status = smc.AddStu(ts); 
             if (Status) { Console.WriteLine("增加完成，按任意键继续......"); }else { Console.WriteLine("学号已经存在，增加失败，按任意键继续......"); }
             Console.ReadKey();
         }

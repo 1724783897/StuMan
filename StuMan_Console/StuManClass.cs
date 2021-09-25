@@ -35,16 +35,11 @@ namespace StuMan_Console
                 if(item.Sno == s.Sno)
                 {
                     flag = false;
+                    return flag;
                 }
             }
-            if (flag) {
                stuList.Add(s);
                return flag;
-            }
-            else
-            {
-                return flag;
-            }
         }
         public bool DeleteStu(int _sno)//按学号删除学生
         {
